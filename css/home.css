@@ -773,48 +773,63 @@ p {
     }
 }
 
-.slider {
-    background: white;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-    height: 100px;
-    margin: auto;
-    overflow: hidden;
+#cta {
+    padding: 50px 0;
+    background: #07476f url(https://barberhub.id/landing2/images/cta-full.png) -200px center no-repeat;
+    background-size: 67%;
     position: relative;
-    width: 960px;
 }
 
-.slider::before,
-.slider::after {
-    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+#cta::before {
     content: "";
-    height: 100px;
     position: absolute;
-    width: 200px;
-    z-index: 2;
-}
-
-.slider::after {
+    top: 0;
     right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
+    width: 200px;
+    height: 200px;
+    background: url(https://barberhub.id/landing2/images/cta-2.png) 40px -230px no-repeat;
+    background-size: 400px;
 }
 
-.slider::before {
-    left: 0;
-    top: 0;
+
+#cta::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: url(https://barberhub.id/landing2/images/cta-1.png) 0px 54px no-repeat;
+    background-size: 400px;
 }
 
-.slider .slide-track {
-    -webkit-animation: scroll 40s linear infinite;
-    animation: scroll 40s linear infinite;
-    display: flex;
-    width: calc(250px * 14);
+#cta .box-cta {
+    width: 45%;
+    margin-left: auto;
 }
 
-.slider .slide {
-    height: 100px;
-    width: 250px;
+#cta .cta-text {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 30px;
 }
+
+#cta a.btn-cta {
+    background: #FFF;
+    border-radius: 40px;
+    color: #222;
+    margin-left: auto;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+#cta a.btn-cta i {
+    margin-right: 5px;
+}
+
+
 
 #join {
     padding-bottom: 100px;
@@ -846,12 +861,12 @@ p {
 }
 
 .box-join {
-    background: #0D7839;
+    background: #1293E4;
     border-radius: 40px;
     padding: 50px 60px;
     margin: 0 10px 20px 10px;
     color: #FFF;
-    min-height: 380px;
+    min-height: 300px;
 }
 
 .box-join .join-ico {
@@ -887,7 +902,7 @@ p {
 }
 
 .box-join a.join-more {
-    background: #05431E;
+    background: #09507c;
     border-radius: 20px;
     font-size: 14px;
     color: #FFF;
@@ -896,5 +911,170 @@ p {
 }
 
 .box-join a.join-more:hover {
-    background: #0e542a;
+    background: rgb(29, 79, 160);
+}
+
+footer {
+    background: #09507c;
+    padding: 50px 0 0 0;
+    color: #E9E9E9;
+}
+
+footer .logo-bottom img {
+    width: 150px;
+}
+
+
+.box-footer1 h1,
+.box-footer2 h2,
+.box-footer3 h2 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.box-footer1 .footer-text {
+    font-size: 14px;
+    padding-right: 100px;
+}
+
+.box-sosmed {
+    padding: 12px 0 0 0;
+}
+
+.box-sosmed a {
+    color: #E9E9E9;
+    font-size: 26px;
+    padding-right: 16px;
+}
+
+ul.list1 {
+    margin: 0;
+    padding: 0;
+}
+
+ul.list1 li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+ul.list1 li a {
+    display: block;
+    color: #E9E9E9;
+}
+
+ul.list1 li a:hover {
+    text-decoration: underline !important;
+}
+
+ul.list1 li i {
+    margin-right: 10px;
+    width: 18px;
+    text-align: center;
+}
+
+
+ul.list2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul.list2 li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #FFF;
+    padding: 10px 15px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+ul.list2 li:hover {
+    padding: 10px 15px 10px 25px;
+}
+
+ul.list2 li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0;
+    width: 0;
+    border-radius: 5px 0 0 5px;
+    transition: 0.3s;
+}
+
+ul.list2 li:hover::before {
+    content: "";
+    padding-left: 15px;
+    width: 1 0px;
+    display: block;
+    background-color: #024e21;
+}
+
+ul.list3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul.list3 li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #FFF;
+    padding: 10px 15px;
+    position: relative;
+    background-color: #00722e;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.box-copy { 
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0;
+    border-top: 1px solid #043F1C;
+    padding: 20px 0;
+}
+
+.img-nuku{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+nav.page-bottom {
+    margin: 40px 0;
+}
+
+nav.page-bottom .page-item {
+    margin: 0 5px;
+}
+
+nav.page-bottom .page-link {
+    border-radius: 25px;
+    padding: 0.75rem 1.25rem;
+    font-size: 16px;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: 25px;
+    padding: 0.75rem 1.15rem;
+}
+
+.page-link,
+.page-link:hover {
+    color: #00722e;
+}
+
+.page-item.active .page-link {
+    background-color: #00722e;
+    border-color: #00722e;
 }
