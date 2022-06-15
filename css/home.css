@@ -72,6 +72,16 @@
     line-height: 60px;
 }
 
+@media (max-width: 575.98px) {
+    .atf-hero-area .atf-single-details h2 {
+    font-size: 30px;
+    }
+
+    .atf-hero-area .atf-single-details p{
+        font-size: 5px;
+    }
+}
+
 .atf-hero-area .atf-single-details p {
     margin: 10px 0 23px;
     font-size: 16px;
@@ -419,7 +429,7 @@
     transform: scale(1.04) rotate(0deg);
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .atf-particle-one .atf-particle-img img {
         display: none;
     }
