@@ -785,7 +785,7 @@ p {
 
 #cta {
     padding: 50px 0;
-    background: #07476f url(https://barberhub.id/landing2/images/cta-full.png) -200px center no-repeat;
+    background: #07476f url(../assets/img/Smatphone/smartphone-full.png) -200px center no-repeat;
     background-size: 67%;
     position: relative;
 }
@@ -797,7 +797,7 @@ p {
     right: 0;
     width: 200px;
     height: 200px;
-    background: url(https://barberhub.id/landing2/images/cta-2.png) 40px -230px no-repeat;
+    background: url(../assets/img/Smatphone/smartphone1.png) 40px -230px no-repeat;
     background-size: 400px;
 }
 
@@ -809,7 +809,7 @@ p {
     right: 0;
     width: 200px;
     height: 200px;
-    background: url(https://barberhub.id/landing2/images/cta-1.png) 0px 54px no-repeat;
+    background: url(../assets/img/Smatphone/smartphone2.png) 0px 54px no-repeat;
     background-size: 400px;
 }
 
@@ -867,7 +867,7 @@ p {
     right: 0;
     width: 200px;
     height: 200px;
-    background: url(https://barberhub.id/landing2/images/cta-2.png) 40px -230px no-repeat;
+    background: url(../assets/img/Smatphone/smartphone2.png) 40px -230px no-repeat;
     background-size: 400px;
     }
 
@@ -879,7 +879,7 @@ p {
     right: 0;
     width: 200px;
     height: 200px;
-    background: url(https://barberhub.id/landing2/images/cta-1.png) 0px 54px no-repeat;
+    background: url(../assets/img/Smatphone/smartphone1.png) 0px 54px no-repeat;
     background-size: 400px;
     }
 
@@ -976,7 +976,6 @@ ul.list1 li {
 }
 
 ul.list1 li a {
-    display: block;
     color: #E9E9E9;
 }
 

@@ -13,11 +13,11 @@
 }
 
 .hero-bg {
-    background-image: url(../../assets/img/banner/lamongan.jpg);
+    background-image: url(../../assets/img/banner/Banner\ Tentang\ NikiLaPOL.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 90vh;
     position: relative;
     z-index: 1;
 }
@@ -493,8 +493,8 @@
 
 #cta {
     padding: 50px 0;
-    background: #07476f url(../../assets/img/home-img.png) no-repeat;
-    background-size: 50%;
+    background: #07476f url(../../assets/img/Ilustrasi/Download\ Apk.png) no-repeat;
+    background-size: 40%;
     position: relative;
 }
 
@@ -530,7 +530,7 @@
 @media screen and (max-width: 576px) {
     #cta {
         padding: 50px 0;
-        background: #07476f url(../../../assets/img/home-img.png) -110% no-repeat;
+        background: #07476f url(../../assets/img/Ilustrasi/Download\ Apk.png) -110% no-repeat;
         background-size: 20%;
         position: relative;
     }
@@ -593,9 +593,9 @@
     opacity: 1;
 }
 
-.card .fab.fa-envira,
-.fas.fa-cut,
-.fas.fa-people-carry {
+.fa-solid.fa-store,
+.fa-solid.fa-motorcycle,
+.fa-solid.fa-bullhorn {
     font-size: 40px;
     background-color: #0000000d;
     height: 100px;
@@ -630,9 +630,9 @@
     box-shadow: none;
 }
 
-.card:hover .fab.fa-envira,
-.card:hover .fas.fa-cut,
-.card:hover .fas.fa-people-carry {
+.card:hover .fa-solid.fa-store,
+.card:hover .fa-solid.fa-motorcycle,
+.card:hover .fa-solid.fa-bullhorn {
     color: #fff;
     background-color: #1293E4;
 }

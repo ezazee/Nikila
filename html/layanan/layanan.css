@@ -122,7 +122,7 @@ body {
 
 h1,
 h2 {
-    font-family: Calistoga;
+font-family: Poppins, sans-serif;
     font-weight: 400;
 }
 
@@ -179,11 +179,11 @@ h2 {
 }
 
 .ctnr-summer:after {
-    background: linear-gradient(135deg, #2a2d4e, transparent);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.582), transparent);
 }
 
 .ctnr-winter:after {
-    background: linear-gradient(-135deg, white, transparent);
+    background: linear-gradient(-135deg, rgba(0, 0, 0, 0.582), transparent);
 }
 
 image {
@@ -209,7 +209,7 @@ p {
     }
 
     .ctnr-summer:after {
-        background: linear-gradient(180deg, #2a2d4e, transparent 120%);
+        background: linear-gradient(180deg, #1293E4, transparent 120%);
     }
 }
 
@@ -221,8 +221,8 @@ main {
 
 #cta {
     padding: 50px 0;
-    background: #07476f url(../../../assets/img/home-img.png) no-repeat;
-    background-size: 50%;
+    background: #07476f url(../../assets/img/Ilustrasi/Download\ Apk.png) no-repeat;
+    background-size: 40%;
     position: relative;
 }
 
@@ -251,6 +251,103 @@ main {
 
 #cta a.btn-cta i {
     margin-right: 5px;
+}
+
+.layanan{
+    background-color: #36abf5;
+    height: 220vh;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+}
+
+@media (max-width: 575.98px) {
+    .layanan{
+    background-color: #36abf5;
+    height: 480vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+}
+
+.layanan-2 {
+    position: relative;
+    margin-top: -250px;
+    background-color: #1d78b3;
+    height: 100vh;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .layanan-2{
+        margin-top: -250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .layanan-2{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+         margin-top: -15px; 
+    }
+}
+
+@media (max-width: 575.98px) {
+    .layanan-2 {
+        position: relative;
+        margin-top: -420px;
+        background-color: #1d78b3;
+        height: 480vh;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+
+.card2 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+}
+
+.card2:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+.card2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #1293E4;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+
+.card2:hover:before {
+    transform: scale(2.15);
+}
+
+.layanan-bg{
+    background-color: #000;
 }
 
 @media screen and (max-width: 576px) {

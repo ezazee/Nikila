@@ -13,7 +13,7 @@
 }
 
 .hero-bg {
-    background-image: url(../../../assets/img/banner/Banner\ Ads\ 1.png);
+    background-image: url(../../../assets/img/banner/Banner\ Mitra\ Merchant.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,8 +287,8 @@
 
 #cta {
     padding: 50px 0;
-    background: #07476f url(../../../assets/img/home-img.png)  no-repeat;
-    background-size: 50%;
+    background: #07476f url(../../../assets/img/Ilustrasi/Daftar.png)  no-repeat;
+    background-size: 40%;
     position: relative;
 }
 
