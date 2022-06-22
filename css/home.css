@@ -492,7 +492,7 @@ p {
     background-position: 0 100%;
 }
 
-.card:hover .icon-wrapper {
+.card:hover svg {
     background-color: #ffffff;
     color: #2c7bfe;
 }
