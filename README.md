@@ -16,5 +16,6 @@ NikiLa Pasar Online Lamongan atau yang disingkat Nikila POL adalah Marketplace y
 
 
 ## Untuk melihat Pages nya silahkan klik link berikut ini :
-      1. https://ezazee.github.io/NikiLa-POL/
+
+ https://ezazee.github.io/NikiLa-POL/
 
