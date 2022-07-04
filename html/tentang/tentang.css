@@ -644,9 +644,6 @@
 }
 
 @media (max-width:500px) {
-    body {
-        padding: 25px;
-    }
 
     .card {
         width: 100%;
