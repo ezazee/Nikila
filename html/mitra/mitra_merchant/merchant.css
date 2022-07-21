@@ -76,7 +76,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 90px;
-    justify-content: center;
     align-items: center;
 }
 
@@ -350,4 +349,25 @@
         padding: 8px 20px;
     }
 
+}
+
+#btn-1,
+#btn-2,
+#btn-3,
+#btn-4,
+#btn-5,
+#btn-6, 
+#btn-7,
+#btn-8, 
+#btn-9 {
+    border-radius: 10px;
+    text-align: left;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.aktif {
+    background: #07476f;
+    color: #FFF;
 }
