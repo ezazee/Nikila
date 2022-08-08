@@ -62,6 +62,16 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
+ :root {
+ 	--warna-dasar: #1293E4;
+ 	--warna-kedua: #07476f;
+ 	--warna-ketiga: #09507c;
+ 	--warna-putih1: #fff;
+ 	--warna-putih2: #fafafa;
+ 	--font-dasar: 'Poppins', sans-serif;
+ 	--size-font-subtitle: 50px;
+ }
+
 *,
 *::before,
 *::after {
@@ -21271,17 +21281,7 @@ hr {
 	background-color: #09aad1;
 }
 
-.button-secondary, .button-secondary:focus {
-	color: #ffffff;
-	background-color: #1293E4;
-	border-color: #1293E4;
-}
 
-.button-secondary:hover, .button-secondary:active, .button-secondary.active {
-	color: #ffffff;
-	background-color: #1293E4;
-	border-color: #1293E4;
-}
 
 .button-secondary.button-ujarak::before {
 	background: #085bd9;
@@ -24309,7 +24309,7 @@ html:not(.lt-ie10) .not-animated {
 	width: 64px;
 	height: 64px;
 	margin: 0 auto;
-	border: 3px solid #0066FF;
+	border: 3px solid var(--warna-dasar);
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -25102,7 +25102,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static.context-dark .rd-nav-link:hover, .rd-navbar-static.bg-gray-700 .rd-nav-link:hover, .rd-navbar-static.bg-gray-800 .rd-nav-link:hover, .rd-navbar-static.bg-primary-app .rd-nav-link:hover, .rd-navbar-static.bg-primary .rd-nav-link:hover, .rd-navbar-static.bg-primary-1 .rd-nav-link:hover, .rd-navbar-static.bg-primary-2 .rd-nav-link:hover, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-link:hover, .rd-navbar-static.bg-gradient-primary .rd-nav-link:hover, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-link:hover, .rd-navbar-static.rd-navbar-corporate .rd-nav-link:hover {
-	color: #01C9F5;
+	color: var(--warna-dasar);
 }
 
 .rd-navbar-static.context-dark .rd-navbar-search-toggle, .rd-navbar-static.bg-gray-700 .rd-navbar-search-toggle, .rd-navbar-static.bg-gray-800 .rd-navbar-search-toggle, .rd-navbar-static.bg-primary-app .rd-navbar-search-toggle, .rd-navbar-static.bg-primary .rd-navbar-search-toggle, .rd-navbar-static.bg-primary-1 .rd-navbar-search-toggle, .rd-navbar-static.bg-primary-2 .rd-navbar-search-toggle, .rd-navbar-static.bg-wave-dark-wrap .rd-navbar-search-toggle, .rd-navbar-static.bg-gradient-primary .rd-navbar-search-toggle, .rd-navbar-static.bg-gradient-primary-1 .rd-navbar-search-toggle, .rd-navbar-static.rd-navbar-corporate .rd-navbar-search-toggle {
