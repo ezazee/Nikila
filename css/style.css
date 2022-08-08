@@ -21281,6 +21281,20 @@ hr {
 	background-color: #09aad1;
 }
 
+.button-secondary,
+.button-secondary:focus {
+	color: #ffffff;
+	background-color: var(--warna-dasar);
+	border-color: var(--warna-dasar);
+}
+
+.button-secondary:hover,
+.button-secondary:active,
+.button-secondary.active {
+	color: #ffffff;
+	background-color: var(--warna-kedua);
+	border-color: var(--warna-kedua);
+}
 
 
 .button-secondary.button-ujarak::before {
