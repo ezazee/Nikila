@@ -219,7 +219,7 @@ p {
     }
 
     .ctnr-summer:after {
-        background: linear-gradient(180deg, #1293E4, transparent 120%);
+        background: linear-gradient(180deg, var(--warna-dasar), transparent 120%);
     }
 }
 

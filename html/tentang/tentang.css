@@ -318,7 +318,7 @@
 }
 
 .button-play:hover {
-    color: #1293E4;
+    color: var(--warna-dasar);
 }
 
 .button-play:hover::before {
