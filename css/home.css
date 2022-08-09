@@ -76,7 +76,7 @@
     color: #31404a;
     text-transform: capitalize;
     font-weight: 700;
-    font-family: 'poppins';
+    font-family: var(--font-dasar);
     font-size: 35px;
     letter-spacing: 0.7px;
     line-height: 60px;
@@ -1222,7 +1222,7 @@ nav.page-bottom .page-link {
     line-height: 1.25;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     color: #fff;
-    font-family: 'Poppins';
+    font-family: var(--font-dasar);
 }
 
 .main-post__link {
@@ -1285,7 +1285,7 @@ nav.page-bottom .page-link {
     opacity: 0;
     transition: transform 0.2s 0.35s, opacity 0.5s 0.2s;
     color: #fff;
-    font-family: 'Poppins';
+    font-family: var(--font-dasar);
 }
 
 .main-post.main-post--active .main-post__link {
@@ -1332,7 +1332,7 @@ nav.page-bottom .page-link {
     font-size: 0.95em;
     line-height: 1.5;
     color: #c7c7c7;
-    font-family: 'Poppins';
+    font-family: var(--font-dasar);
 }
 
 .post--active {

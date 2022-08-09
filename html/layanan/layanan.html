@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Layanan NikLa  POL</title>
+    <title>Layanan Nikila</title>
     <meta charset="utf-8">
     <meta name="keywords" content="NikiLa, Marketplace, Lamongan, Driver ">
     <meta name="description" content="NikiLa POL, Marketplace yang digabungkan dengan Delivery Order">
@@ -18,6 +18,232 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../html/layanan/layanan.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  
+    <style>
+        :root{
+    --warna-dasar: #1293E4;
+    --warna-kedua: #07476f;
+    --warna-ketiga: #09507c;
+    --warna-putih1: #fff;
+    --warna-putih2: #fafafa;
+    --font-dasar: 'Poppins', sans-serif;
+    --size-font-subtitle: 50px;
+  }
+
+  /* Button Arrow To Top Webstie */
+  .ui-to-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 100;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 36px;
+	border-radius: 50%;
+	color: #ffffff;
+	background: var(--warna-dasar);
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	transform: translate3d(0, 100px, 0);
+}
+
+.ui-to-top:hover {
+	color: #ffffff;
+	background: var(--warna-kedua);
+	text-decoration: none;
+}
+/* End Button ARROW  */
+
+  /* Pre Loader */
+  .cssload-speeding-wheel {
+	width: 64px;
+	height: 64px;
+	margin: 0 auto;
+	border: 3px solid var(--warna-dasar);
+	border-radius: 50%;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	animation: cssload-spin .88s infinite linear;
+  }
+/* End Pre Loader */
+
+  
+      /* Button Belanja Sekarang & Button Selengkapnya di Kategori Layanan */
+      .button-secondary, .button-secondary:focus {
+	    color: #ffffff;
+	    background-color: var(--warna-dasar);
+	    border-color: var(--warna-dasar);
+      }
+
+      .button-secondary:hover, .button-secondary:active, .button-secondary.active {
+	    color: #ffffff;
+	    background-color: var(--warna-kedua);
+    	border-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka:hover, .button-secondary.button-nuka:active, .button-secondary.button-nuka.active {
+	background-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka .button-overlay {
+        background-color: var(--warna-kedua);
+      }
+      /* End Button Belanja Sekarang & Button Selengkapnya di Kategori Layanan */
+
+
+      /* Hover Text Navbar */
+      .rd-navbar-static.context-dark .rd-nav-link:hover, .rd-navbar-static.bg-gray-700 .rd-nav-link:hover, .rd-navbar-static.bg-gray-800 .rd-nav-link:hover, .rd-navbar-static.bg-primary-app .rd-nav-link:hover, .rd-navbar-static.bg-primary .rd-nav-link:hover, .rd-navbar-static.bg-primary-1 .rd-nav-link:hover, .rd-navbar-static.bg-primary-2 .rd-nav-link:hover, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-link:hover, .rd-navbar-static.bg-gradient-primary .rd-nav-link:hover, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-link:hover, .rd-navbar-static.rd-navbar-corporate .rd-nav-link:hover {
+	    color: var(--warna-dasar);
+      }
+      /* End Hover Text Navbar */
+
+
+      /* BG Layanan 1 */
+      .layanan{
+    background-color: var(--warna-dasar);
+    height: 210vh;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+}
+
+
+@media (max-width: 575.98px) {
+    .layanan{
+    background-color: var(--warna-dasar);
+    height: 480vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .layanan {
+            background-color: var(--warna-dasar);
+            height: 160vh;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .layanan {
+            background-color: var(--warna-dasar);
+            height: 120vh;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .layanan {
+            background-color: var(--warna-dasar);
+            height: 150vh;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+}
+
+/* end BG Layanan 1 */
+
+
+/* BG Layanan 2 */
+.layanan-2 {
+    position: relative;
+    margin-top: -250px;
+    background-color: var(--warna-ketiga);
+    height: 100vh;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+}
+
+@media (max-width: 575.98px) {
+    .layanan-2 {
+        position: relative;
+        margin-top: -420px;
+        background-color: var(--warna-ketiga);
+        height: 480vh;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+/* end BG Layanan 2 */
+
+
+/* Card Before */
+.card2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: var(--warna-dasar);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+/* End Card Before */
+
+/* Banner CTA */
+#cta {
+    padding: 50px 0;
+    background: #07476f url(../../assets/img/Ilustrasi/Download\ Apk.png) no-repeat;
+    background-size: 40%;
+    position: relative;
+}
+
+@media screen and (max-width: 576px) {
+    #cta {
+        padding: 50px 0;
+        background: var(--warna-kedua) url(../../../assets/img/home-img.png) -110% no-repeat;
+        background-size: 20%;
+        position: relative;
+    }
+
+    #cta .box-cta {
+        width: auto;
+        margin-left: auto;
+    }
+
+    #cta .cta-text {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #FFF;
+        margin-bottom: 30px;
+    }
+
+    #cta a.btn-cta {
+        background: #FFF;
+        border-radius: 40px;
+        color: #222;
+        margin-left: 100px;
+        font-weight: 600;
+        padding: 8px 20px;
+    }
+
+}
+
+/* End Banner CTA */
+
+
+/* Footer */
+footer {
+    background: var(--warna-kedua);
+    padding: 50px 0 0 0;
+    color: #E9E9E9;
+}
+/* End Footer */
+
+    </style>
+
+
   </head>
   <body>
     <div class="preloader">
@@ -47,7 +273,7 @@
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="../tentang/tentang.html">Tentang NikiLa POL</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="../tentang/tentang.html">Tentang Nikila</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="#">Mitra</a>
                         <ul class="rd-menu rd-navbar-dropdown">
@@ -178,7 +404,7 @@
             <div class="row">
                 <a class="card2 pb-3" href="#">
                       <img src="../../assets/img/icon/Elektronik.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Elektronik</h3>
+                <h3 style="font-family: var(--font-dasar);">Elektronik</h3>
                 <p class="small">Cari barang elektronik yang kekinian!</p>
                 
                 <div class="go-corner" href="#">
@@ -190,7 +416,7 @@
 
                 <a class="card2" href="#">
                    <img src="../../assets/img/icon/Fashion.png" width="30px" alt="">
-                <h3 style="font-family: 'Poppins';">Fashion</h3>
+                <h3 style="font-family: var(--font-dasar);">Fashion</h3>
                 <p class="small">Cari fashion Lokal khas Lamongan </p>
                 
                 <div class="go-corner" href="#">
@@ -202,7 +428,7 @@
 
               <a class="card2" href="#">
                    <img src="../../assets/img/icon/Kerajinan.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Kerajinan</h3>
+                <h3 style="font-family: var(--font-dasar);">Kerajinan</h3>
                 <p class="small">Disini tempat cari kreasi Kerajinan khas Lamongan</p>
                 
                 <div class="go-corner" href="#">
@@ -214,7 +440,7 @@
 
               <a class="card2" href="#">
                    <img src="../../assets/img/icon/Kesehatan.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Kesehatan</h3>
+                <h3 style="font-family: var(--font-dasar);">Kesehatan</h3>
                 <p class="small">Cari obat atau konsul kesehatanmu disini</p>
                 
                 <div class="go-corner" href="#">
@@ -226,7 +452,7 @@
 
               <a class="card2" href="#">
                    <img src="../../assets/img/icon/Kuliner.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Kuliner</h3>
+                <h3 style="font-family: var(--font-dasar);">Kuliner</h3>
                 <p class="small">Cari kuliner khas Lamongan yang banyak banget!</p>
                 
                 <div class="go-corner" href="#">
@@ -238,7 +464,7 @@
 
                <a class="card2 pb-3" href="#">
                       <img src="../../assets/img/icon/Oleh-Oleh.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Oleh-Oleh</h3>
+                <h3 style="font-family: var(--font-dasar);">Oleh-Oleh</h3>
                 <p class="small">Cari Oleh-Oleh khas Lamongan untuk dibawa Pulang!</p>
                 
                 <div class="go-corner" href="#">
@@ -250,7 +476,7 @@
 
                <a class="card2 pb-3" href="#">
                       <img src="../../assets/img/icon/Perikanan.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Perikanan</h3>
+                <h3 style="font-family: var(--font-dasar);">Perikanan</h3>
                 <p class="small">Cari ikan dan makanan laut yang berkualitas ada disini </p>
                 <div class="go-corner" href="#">
                   <div class="go-arrow">
@@ -261,7 +487,7 @@
 
                <a class="card2 pb-3" href="#">
                       <img src="../../assets/img/icon/Perkebunan.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Perkebunan</h3>
+                <h3 style="font-family: var(--font-dasar);">Perkebunan</h3>
                 <p class="small">Cari hasil kebun disini banyak banget!</p>
                 
                 <div class="go-corner" href="#">
@@ -273,7 +499,7 @@
 
                <a class="card2 pb-3" href="#">
                       <img src="../../assets/img/icon/Pertanian.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Pertanian</h3>
+                <h3 style="font-family: var(--font-dasar);">Pertanian</h3>
                 <p class="small">Cari hasil Tani dari para Petani Lamongan yang berkualitas</p>
                 
                 <div class="go-corner" href="#">
@@ -285,7 +511,7 @@
 
                <a class="card2 pb-3" href="#">
                       <img src="../../assets/img/icon/Peternakan.png" width="50px" alt="">
-                <h3 style="font-family: 'Poppins';">Peternakan</h3>
+                <h3 style="font-family: var(--font-dasar);">Peternakan</h3>
                 <p class="small">Cari hewan peternakan yang fresh dan berkualitas!</p>
                 
                 <div class="go-corner" href="#">
@@ -308,7 +534,7 @@
             <div class="row">
                 <a class="card2 pb-3" href="#">
                       <img src="../../assets/img/icon/Niki_Driver.png" width="60px" alt="">
-                <h3 style="font-family: 'Poppins';">NiKi Anterin</h3>
+                <h3 style="font-family: var(--font-dasar);">NiKi Anterin</h3>
                 <p class="small">Anter kamu kesana sini dengan mudah dan aman.</p>
                 
                 <div class="go-corner" href="#">
@@ -320,7 +546,7 @@
 
                 <a class="card2" href="#">
                    <img src="../../assets/img/icon/Belanjain.png" width="60px" alt="">
-                <h3 style="font-family: 'Poppins';">NiKi Belanjain</h3>
+                <h3 style="font-family: var(--font-dasar);">NiKi Belanjain</h3>
                 <p class="small">Sekarang driver bisa anterin barang belanjaan kamu nih</p>
                 
                 <div class="go-corner" href="#">
@@ -332,7 +558,7 @@
 
               <a class="card2" href="#">
                    <img src="../../assets/img/icon/Kirimin.png" width="60px" alt="">
-                <h3 style="font-family: 'Poppins';">NiKi Kirimin</h3>
+                <h3 style="font-family: var(--font-dasar);">NiKi Kirimin</h3>
                 <p class="small">Anter paket tanpa ribet pake Niki Kirimin</p>
                 
                 <div class="go-corner" href="#">
@@ -374,7 +600,7 @@
                         <div class="col-md-4">
                             <div class="box-footer1">
                                 <div class="footer-text">
-                                    NikiLa Pasar Online Lamongan atau yang disingkat Nikila POL adalah Marketplace yang menggabungkan Marketplace dan Delivery Order, dengan tujuan menjadi wadah jualan produk-produk kearifan lokal untuk meningkatkan PHD (Peningkatan Hasil Daerah) serta mendorong masyarakat Lamongan untuk meningkatkan usaha produk lokal termasuk UMKM
+                                    Niki Lamongan atau yang disingkat Nikila adalah Marketplace yang menggabungkan Marketplace dan Delivery Order, dengan tujuan menjadi wadah jualan produk-produk kearifan lokal untuk meningkatkan PHD (Peningkatan Hasil Daerah) serta mendorong masyarakat Lamongan untuk meningkatkan usaha produk lokal termasuk UMKM
                                 </div>
                                 <div class="box-sosmed">
                                     <a href="#" title="Facebook NikiLa" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -387,7 +613,7 @@
                         </div>
                         <div class="col-md-2">
                             <div class="box-footer2">
-                                <h2 style="font-family: 'Poppins';">Gabung</h2>
+                                <h2 style="font-family: var(--font-dasar);">Gabung</h2>
                                 <ul class="list1 pt-4">
                                     <li><a href="#" title="">Mitra Merchant</a></li>
                                     <li><a href="#" title="">Mitra Driver</a></li>
@@ -396,18 +622,18 @@
                         </div>
                         <div class="col-md-2">
                             <div class="box-footer2">
-                                <h2 style="font-family: 'Poppins';">Pintasan</h2>
+                                <h2 style="font-family: var(--font-dasar);">Pintasan</h2>
                                 <ul class="list1 pt-4">
                                     <li><a href="../../html/mitra/mitra_driver/driver.html" title="">Mitra Driver</a></li>
                                     <li><a href="../../html/mitra/mitra_merchant/merchant.html" title="">Mitra Merchant</a></li>
                                     <li><a href="../../html/layanan/layanan.html" title="">Layanan</a></li>
-                                    <li><a href="../../html/tentang/tentang.html" title="">Tentang NikiLa POL</a></li>
+                                    <li><a href="../../html/tentang/tentang.html" title="">Tentang Nikila</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="box-footer3">
-                                <h2 style="font-family: 'Poppins';">Hubungi Kami</h2>
+                                <h2 style="font-family: var(--font-dasar);">Hubungi Kami</h2>
                                 <ul class="list1 pt-4">
                                     <li><i class="fas fa-envelope"></i>contact@Nikila.id</li>
                                     <li><i class="fa-brands fa-whatsapp"></i><a href="#">+62 812-812-812</li></a>
@@ -416,7 +642,7 @@
                         </div>
                     </div>
                     <div class="box-copy">
-                        &copy; 2022. <b>NikiLa POL</b>. All Rights Reserved
+                        &copy; 2022. <b>Nikila</b>. All Rights Reserved
                     </div>
                   <div class="img-nuku">
                     <img src="../../assets/img/Powered by NuKu.png" width="150px" alt="">

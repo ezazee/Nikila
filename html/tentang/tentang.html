@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Tentang NikiLa</title>
+    <title>Tentang Nikila</title>
     <meta charset="utf-8">
     <meta name="keywords" content="NikiLa, Marketplace, Lamongan, Driver ">
     <meta name="description" content="NikiLa POL, Marketplace yang digabungkan dengan Delivery Order">
@@ -36,6 +36,34 @@
     --size-font-subtitle: 50px;
   }
 
+    /* Button Arrow To Top Webstie */
+  .ui-to-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 100;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 36px;
+	border-radius: 50%;
+	color: #ffffff;
+	background: var(--warna-dasar);
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	transform: translate3d(0, 100px, 0);
+}
+
+.ui-to-top:hover {
+	color: #ffffff;
+	background: var(--warna-kedua);
+	text-decoration: none;
+}
+/* End Button ARROW  */
+
+
   /* Pre Loader */
   .cssload-speeding-wheel {
 	width: 64px;
@@ -52,14 +80,22 @@
   /* Button Belanja Sekarang */
       .button-secondary, .button-secondary:focus {
 	    color: #ffffff;
-	    background-color: #1293E4;
-	    border-color: #1293E4;
+	    background-color: var(--warna-dasar);
+	    border-color: var(--warna-dasar);
       }
 
       .button-secondary:hover, .button-secondary:active, .button-secondary.active {
 	    color: #ffffff;
-	    background-color: #1293E4;
-    	border-color: #1293E4;
+	    background-color: var(--warna-kedua);
+    	border-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka:hover, .button-secondary.button-nuka:active, .button-secondary.button-nuka.active {
+        background-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka .button-overlay {
+        background-color: var(--warna-kedua);
       }
       /* End Button Belanja Sekarang */
 
@@ -69,7 +105,71 @@
 	    color: var(--warna-dasar);
       }
       /* End Hover Text Navbar */
+      
+       /* Heading Sub Judul H6 */
+      h6,
+    .heading-6 {
+	    font-family: var(--font-dasar);
+	    font-size: 18px;
+	    line-height: 1.6;
+	    color: var(--warna-dasar);
+    }
+     /* End Heading Sub Judul H6 */
 
+     /* Button Arrow Color */
+.card .fas.fa-arrow-right {
+    position: absolute;
+    bottom: -100px;
+    background-color: var(--warna-dasar);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 0.5s ease;
+}
+    /* end Button Arrow Color */
+
+
+  /* H6 Lebih dri sekedar Marketplace */
+.container .content .h-6 {
+    color: var(--warna-dasar);
+    font-weight: 600;
+}
+/* End H6 Lebih dri sekedar Marketplace */
+
+
+/* Button Lebih dari Sekedar Marketplace */
+.container .content .btn.btn-primary {
+    padding: 15px;
+    background-color: var(--warna-dasar);
+    color: white;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+}
+/* End Button Lebih dari Sekedar Marketplace */
+
+
+     /* CTA banner Download */
+#cta {
+    padding: 50px 0;
+    background: var(--warna-kedua) url(../../assets/img/Ilustrasi/Download\ Apk.png) no-repeat;
+    background-size: 40%;
+    position: relative;
+}
+/* END CTA Banner Download */
+
+/* Footer */
+footer {
+    background: var(--warna-kedua);
+    padding: 50px 0 0 0;
+    color: #E9E9E9;
+}
     </style>
   </head>
   <body>
@@ -214,9 +314,9 @@
               </div>
               <div class="col-xl-5 col-lg-6">
                 <h6>Tentang</h6>
-                <h2 style="font-family: 'Roboto' ; font-size: 50px;
-                ">Apa itu <span style="color: #1293E4;"> NikiLa POL</span></h2>
-                <p class="big">NikiLa Pasar Online Lamongan atau yang disingkat <strong><a class="link-border" href="#">Nikila POL</a></strong>adalah Super Apps yang menggabungkan <em>Marketplace</em> dan <em>Delivery Order</em>, yang mempunyai tujuan menjadi wadah jualan produk kearifan lokal Kabupaten Lamongan serta untuk meningkatkan PAD (Pendapatan Asli Daerah) Kabupaten.</p>
+                <h2 style="font-family: var(--font-dasar) ; font-size: 50px;
+                ">Apa itu <span style="color: var(--warna-dasar);"> Nikila</span></h2>
+                <p class="big">Niki Lamongan atau yang disingkat <strong><a class="link-border" href="#">Nikila </a></strong>adalah Super Apps yang menggabungkan <em>Marketplace</em> dan <em>Delivery Order</em>, yang mempunyai tujuan menjadi wadah jualan produk kearifan lokal Kabupaten Lamongan serta untuk meningkatkan PAD (Pendapatan Asli Daerah) Kabupaten.</p>
                 <!-- <ul class="list-decorative big">
                   <li>Highly responsive</li>
                   <li>Always up-to-date</li>
@@ -232,22 +332,9 @@
           <div class="container">
             <div class="row row-15 justify-content-sm-between wow fadeInUp">
               <div class="col-xl-5 col-lg-6">
-                <h6>Kenapa Harus NikiLa POL ?</h6>
-                <h2 style="font-family: 'Roboto'; font-size: 50px;">Portofolio Produk Daerah</h2>
-                <p class="big">NikiLa POL merupakan E-Katalog produk kearifan lokal Kabupaten Lamongan yang merupakan portofolio produk daerah untuk sektor UMKM, komodistas, pariwisata sehingga memudahkan wisatawan mengenal produk-produk kearifan lokal Kabupaten Lamongan.</p>
-                <!-- <div class="quote-classic">
-                  <div class="quote-classic-body">
-                    <q>Our creativity and unique approach are the key to success of your business!</q>
-                  </div>
-                  <div class="quote-classic-footer unit unit-spacing-md">
-                    <div class="unit-left"><img class="quote-classic-photo rounded-circle" src="images/landing-corporate-04-60x60.jpg" alt="" width="60" height="60"/>
-                    </div>
-                    <div class="unit-body">
-                      <div class="quote-classic-name">Adam Smith</div>
-                      <div class="quote-classic-position">CEO of Lintense</div>
-                    </div>
-                  </div>
-                </div> -->
+                <h6>Kenapa Harus Nikila</h6>
+                <h2 style="font-family: var(--font-dasar); font-size: 50px;">Portofolio Produk Daerah</h2>
+                <p class="big">Nikila merupakan E-Katalog produk kearifan lokal Kabupaten Lamongan yang merupakan portofolio produk daerah untuk sektor UMKM, komodistas, pariwisata sehingga memudahkan wisatawan mengenal produk-produk kearifan lokal Kabupaten Lamongan.</p>
               </div>
               <div class="col-xl-6 col-lg-6">
                 <div class="text-center text-lg-left"><img src="../../assets/img/Ilustrasi/home-img.png" alt="" width="500" height="406"/>
@@ -257,6 +344,7 @@
           </div>
         </section>
 
+        <!-- Nikila Lebih dari sekedar Marketplace -->
         <section class="section section-md bg-default">
         <div class="container wow fadeInUp">
         <div class="d-lg-flex">
@@ -294,9 +382,9 @@
             </div>
             <div class="col4">
                 <div class="content">
-                    <span class="h-6">NikiLa POL</span>
+                    <span class="h-6">Nikila</span>
                     <p class=" h2 mb-4">Lebih Dari Sekedar Marketplace</p>
-                    <p class="text-muted mb-4">NikiLa POL merupakan solusi dan layanan untuk memberdayakan jutaan penjual produk kearifan lokal dan konsumen agar dapat berpartisipasi membangun ketahanan ekonomi Kabupaten Lamongan
+                    <p class="text-muted mb-4">Nikila merupakan solusi dan layanan untuk memberdayakan jutaan penjual produk kearifan lokal dan konsumen agar dapat berpartisipasi membangun ketahanan ekonomi Kabupaten Lamongan
                     <p><a href="#" class="btn btn-primary">Berpartisipasi sekarang</a></p>
                 </div>
             </div>

@@ -1,3 +1,13 @@
+          :root {
+              --warna-dasar: #1293E4;
+              --warna-kedua: #07476f;
+              --warna-ketiga: #09507c;
+              --warna-putih1: #fff;
+              --warna-putih2: #fafafa;
+              --font-dasar: 'Poppins', sans-serif;
+              --size-font-subtitle: 50px;
+          }
+
 .slick-slider {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -131,7 +141,7 @@
 }
 
 .c-heading__h1 {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     color: #101820;
     font-weight: 700;
     font-size: 26px;
@@ -141,7 +151,7 @@
 
 @media (min-width:768px) {
     .c-heading__h1 {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 48px;
         font-weight: 800;
         line-height: 64px;
@@ -151,7 +161,7 @@
 
 .c-heading__h2 {
     color: #101820;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 28px;
     line-height: 32px
 }
@@ -166,7 +176,7 @@
 
 .c-heading__h3 {
     color: #101820;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 24px;
     line-height: 32px
 }
@@ -262,7 +272,7 @@
 
 .c-information__intro {
     color: #101820;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 28px;
     margin-bottom: 24px;
     line-height: 1.33
@@ -270,7 +280,7 @@
 
 @media screen and (min-width:769px) {
     .c-information__intro {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 42px;
         margin-bottom: 48px;
         line-height: 1.41
@@ -299,7 +309,7 @@
 
 .c-information__title {
     color: #101820;
-    font-family: MaisonNeueExtended-Bold, sans-serif
+    font-family: var(--font-dasar)
 }
 
 @media screen and (max-width:767px) {
@@ -315,18 +325,18 @@
         font-size: 36px;
         line-height: 54px;
         margin-bottom: 20px;
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif
+        font-family: var(--font-dasar)
     }
 }
 
 .c-information__title--special {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     line-height: 39px
 }
 
 @media screen and (min-width:768px) {
     .c-information__title--special {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 48px;
         line-height: 64px
     }
@@ -344,7 +354,7 @@
 
 .c-information__title--tiny {
     color: var(--color-primary-black80);
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.25rem
 }
 
@@ -390,7 +400,7 @@
     line-height: 1.33;
     color: #00880d;
     text-decoration: none;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     width: auto;
     display: inline-block
 }
@@ -428,7 +438,7 @@
 }
 
 .c-information__headline .title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     color: #101820;
     line-height: 1.33;
     font-size: 21px
@@ -481,7 +491,7 @@
 
 .c-information-2__title {
     color: #fff;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0;
@@ -491,7 +501,7 @@
 
 @media screen and (min-width:769px) {
     .c-information-2__title {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 36px;
         font-weight: 800;
         letter-spacing: 0;
@@ -688,7 +698,7 @@
 
 .c-howto__card__info .item h3 {
     font-size: 18px;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     color: #fff;
     line-height: 32px;
     margin-bottom: 1rem
@@ -716,7 +726,7 @@
 .c-howto__card__info .item p b,
 .c-howto__card__info .item p strong {
     font-weight: 700;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 .c-howto__card__info .item p em,
@@ -759,7 +769,7 @@
     font-size: 14px;
     border: unset;
     padding: 0 1rem;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 @media screen and (min-width:769px) {
@@ -907,7 +917,7 @@
 }
 
 .c-howto__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     color: #101820;
     line-height: 1.41;
     font-size: 26px
@@ -915,7 +925,7 @@
 
 @media screen and (min-width:769px) {
     .c-howto__title {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 48px
     }
 }
@@ -1002,7 +1012,7 @@
     color: #101820;
     font-size: 1.125rem;
     line-height: 1.6875rem;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-weight: 700;
     margin-bottom: .5rem
 }
@@ -1197,7 +1207,7 @@
 }
 
 .c-howto__card-aw .title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     color: #101820;
     font-size: 18px;
     font-weight: 500;
@@ -1207,7 +1217,7 @@
 
 @media (min-width:768px) {
     .c-howto__card-aw .title {
-        font-family: MaisonNeueExtended-Bold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 26px;
         line-height: 39px;
         font-weight: 700;
@@ -1277,7 +1287,7 @@
 
 .c-card__body .title {
     font-size: 1rem;
-    font-family: MaisonNeueExtended-Bold, sans-serif
+    font-family: var(--font-dasar)
 }
 
 @media screen and (min-width:769px) {
@@ -1503,7 +1513,7 @@
 
 .c-card__icon .title {
     color: #101820;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.3125rem
 }
 
@@ -1562,7 +1572,7 @@
 }
 
 .c-card__link {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px;
     font-weight: 500;
     line-height: 1.33;
@@ -1726,7 +1736,7 @@
 
 .c-card-testimony-avatar__name {
     color: #1c1d1d;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px
 }
 
@@ -1878,7 +1888,7 @@
 }
 
 .c-card-testimony__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     color: #fff;
     line-height: 1.41
 }
@@ -1967,7 +1977,7 @@
 }
 
 .c-card__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 32px;
     line-height: 44px;
     color: #101820
@@ -2094,7 +2104,7 @@
 
 .c-card-step__title {
     color: #fff;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0;
@@ -2103,7 +2113,7 @@
 
 @media screen and (min-width:769px) {
     .c-card-step__title {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 36px;
         font-weight: 800;
         letter-spacing: 0;
@@ -2167,7 +2177,7 @@
     box-sizing: border-box;
     border-radius: 0 0 16px 16px;
     background-color: #fff;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -2238,12 +2248,12 @@
     margin: 0;
     line-height: 1.35;
     font-size: 1rem;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 @media screen and (min-width:769px) {
     .c-card--accordion__header p {
-        font-family: MaisonNeueExtended-Bold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 1.125rem
     }
 }
@@ -2267,7 +2277,7 @@
 }
 
 .c-card--accordion__content h4 {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     line-height: normal;
     font-size: 1rem;
     color: #101820;
@@ -2276,7 +2286,7 @@
 
 @media screen and (min-width:769px) {
     .c-card--accordion__content h4 {
-        font-family: MaisonNeueExtended-Bold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 1.125rem;
         margin-bottom: 1rem
     }
@@ -2308,7 +2318,7 @@
 }
 
 .c-card--accordion__content a.cta {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.125rem
 }
 
@@ -2411,7 +2421,7 @@
 }
 
 .c-card--channel .c-card__icon .title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.125rem;
     line-height: 1.6875rem
 }
@@ -2450,7 +2460,7 @@
 }
 
 .c-card--base-1__title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -2487,14 +2497,14 @@
 }
 
 .c-card-group__title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.125rem;
     line-height: 1.6875rem
 }
 
 @media (min-width:768px) {
     .c-card-group__title {
-        font-family: MaisonNeueExtended-Bold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 1.625rem;
         line-height: 2.4375rem
     }
@@ -2589,7 +2599,7 @@
 }
 
 .c-card-item__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 28px;
     line-height: 40px;
     text-align: center
@@ -2887,7 +2897,7 @@
 
 .c-card-step-floating-button.active .c-floating-button__content .c-floating-button__title,
 .c-card-step-floating-button.c-pagination__button:hover .c-floating-button__content .c-floating-button__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 21px;
     line-height: 28px;
     color: #fff
@@ -3031,7 +3041,7 @@
     color: #007a0b;
     background-color: #fff;
     border: 1px solid #007a0b;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     cursor: pointer
 }
 
@@ -3227,7 +3237,7 @@
 }
 
 .c-category__title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px;
     font-weight: 500
 }
@@ -3252,11 +3262,11 @@
 
 .c-category__title--bold {
     color: var(--color-primary-black100);
-    font-family: MaisonNeueExtended-Bold, sans-serif
+    font-family: var(--font-dasar)
 }
 
 .c-category__title--alternate {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 8px
@@ -3286,7 +3296,7 @@
 }
 
 .c-top-faq__question {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -3338,7 +3348,7 @@
     -webkit-box-pack: left;
     -ms-flex-pack: left;
     justify-content: left;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     min-height: 64px;
     border-radius: 24px;
     -webkit-box-shadow: 0 0 10px 0 rgba(16, 24, 32, .1);
@@ -3425,7 +3435,7 @@
     }
 
     .o-show-more__text {
-        font-family: MaisonNeue-Demi, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 18px;
         line-height: 1.33;
         color: #00880d;
@@ -3559,7 +3569,7 @@
 .c-service-feature__showmore {
     display: block;
     font-size: 18px;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     line-height: 24px;
     text-align: center;
     margin-top: 8px;
@@ -3678,7 +3688,7 @@
         color: #00880d;
         font-size: 24px;
         line-height: 28px;
-        font-family: MaisonNeue-Demi, sans-serif;
+        font-family: var(--font-dasar);
         letter-spacing: -.02px
     }
 
@@ -3779,7 +3789,7 @@
 
 @media (min-width:768px) {
     .c-heading__h2 {
-        font-family: MaisonNeueExtended-Bold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 26px
     }
 }
@@ -3791,13 +3801,13 @@
 
 @media (min-width:768px) {
     .c-information__title {
-        font-family: MaisonNeueExtended-Bold, sans-serif
+        font-family: var(--font-dasar)
     }
 }
 
 @media (min-width:1200px) {
     .c-information__title {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif
+        font-family: var(--font-dasar)
     }
 }
 
@@ -5412,7 +5422,7 @@ h1 {
 
 h1,
 h2 {
-    font-family: MaisonNeueExtended-Bold, sans-serif
+    font-family: var(--font-dasar)
 }
 
 h2 {
@@ -12239,7 +12249,7 @@ textarea {
 }
 
 .o-forms__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 2.5rem;
     line-height: 1.2;
     letter-spacing: -.01px;
@@ -12253,7 +12263,7 @@ textarea {
 
 .o-forms__title--sub,
 .o-forms__title--sub-child {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     letter-spacing: -.02px
 }
 
@@ -12394,13 +12404,13 @@ textarea {
 }
 
 .o-generic-content h1 {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 4rem;
     margin-bottom: 1.5rem
 }
 
 .o-generic-content p {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.5rem
 }
 
@@ -13391,7 +13401,7 @@ button.btn {
     border: none;
     outline: 0;
     cursor: pointer;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 button.btn--gojek {
@@ -13419,22 +13429,22 @@ button.btn--dark {
 }
 
 button.btn--outline {
-    border: 1px solid #1293E4;
+    border: 1px solid var(--warna-dasar);
     -webkit-transition: all .5s;
     transition: all .5s;
     background-color: #fff;
-    color: #1293E4
+    color: var(--warna-dasar);
 }
 
 button.btn--outline:hover {
-    border: 1px solid #1293E4;
-    background-color: #1293E4;
+    border: 1px solid var(--warna-kedua);
+    background-color: var(--warna-kedua);
     color: #fff
 }
 
 button.btn--outline:active,
 button.btn--outline:focus {
-    background-color: #007a0b
+    background-color: var(--warna-kedua)
 }
 
 button.btn--bg-transparent {
@@ -13496,7 +13506,7 @@ button.btn-small {
     color: #00880d;
     background-color: #fff;
     border: 2px solid #00880d;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     cursor: pointer
 }
 
@@ -13586,7 +13596,7 @@ button.btn-small {
     border: none;
     outline: 0;
     cursor: pointer;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     min-height: 48px;
     padding: 12px 15px;
     border-radius: 4px;
@@ -14609,7 +14619,7 @@ body.business .c-card-socmed__circle-2 {
 .o-hero-single--full__content p b,
 .o-hero-single--full__content p strong {
     font-weight: 700;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 .o-hero-single--full__content p em,
@@ -14618,7 +14628,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .o-hero-single--full__content h1 {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     line-height: 1.2;
     font-size: 4rem;
     margin-bottom: 1rem
@@ -14652,7 +14662,7 @@ body.business .c-card-socmed__circle-2 {
     font-size: 1rem;
     border: unset;
     padding: 0 2rem;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 .o-hero-single--full__content__action a button.btn--shadow {
@@ -15011,7 +15021,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .modal-title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 2.5rem;
     margin: 0;
     line-height: 1.2
@@ -15188,7 +15198,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-bottom-sheet__item.active {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-weight: 900
 }
 
@@ -15284,7 +15294,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-card__body .title {
     font-size: 1rem;
-    font-family: MaisonNeueExtended-Bold, sans-serif
+    font-family: var(--font-dasar)
 }
 
 @media screen and (min-width:769px) {
@@ -15510,7 +15520,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-card__icon .title {
     color: #101820;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.3125rem
 }
 
@@ -15573,7 +15583,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card__link {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px;
     font-weight: 500;
     line-height: 1.33;
@@ -15737,7 +15747,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-card-testimony-avatar__name {
     color: #1c1d1d;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px
 }
 
@@ -15889,7 +15899,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card-testimony__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     color: #fff;
     line-height: 1.41
 }
@@ -15978,7 +15988,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 32px;
     line-height: 44px;
     color: #101820
@@ -16114,7 +16124,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-card-step__title {
     color: #fff;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0;
@@ -16123,7 +16133,7 @@ body.business .c-card-socmed__circle-2 {
 
 @media screen and (min-width:769px) {
     .c-card-step__title {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 36px;
         font-weight: 800;
         letter-spacing: 0;
@@ -16187,7 +16197,7 @@ body.business .c-card-socmed__circle-2 {
     box-sizing: border-box;
     border-radius: 0 0 16px 16px;
     background-color: #fff;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -16258,12 +16268,12 @@ body.business .c-card-socmed__circle-2 {
     margin: 0;
     line-height: 1.35;
     font-size: 1rem;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 @media screen and (min-width:769px) {
     .c-card--accordion__header p {
-        font-family: MaisonNeueExtended-Bold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 1.125rem
     }
 }
@@ -16287,7 +16297,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card--accordion__content h4 {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     line-height: normal;
     font-size: 1rem;
     color: #101820;
@@ -16296,7 +16306,7 @@ body.business .c-card-socmed__circle-2 {
 
 @media screen and (min-width:769px) {
     .c-card--accordion__content h4 {
-        font-family: MaisonNeueExtended-Bold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 1.125rem;
         margin-bottom: 1rem
     }
@@ -16328,7 +16338,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card--accordion__content a.cta {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.125rem
 }
 
@@ -16425,7 +16435,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card--channel .c-card__icon .title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.125rem;
     line-height: 1.6875rem
 }
@@ -16464,7 +16474,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card--base-1__title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -16501,14 +16511,14 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card-group__title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.125rem;
     line-height: 1.6875rem
 }
 
 @media (min-width:768px) {
     .c-card-group__title {
-        font-family: MaisonNeueExtended-Bold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 1.625rem;
         line-height: 2.4375rem
     }
@@ -16603,7 +16613,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card-item__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 28px;
     line-height: 40px;
     text-align: center
@@ -16889,7 +16899,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-card-step-floating-button.active .c-floating-button__content .c-floating-button__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 21px;
     line-height: 28px;
     color: #fff
@@ -17043,7 +17053,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-flybanner .title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: .875rem;
     line-height: 20px;
     color: #1c1d1d
@@ -17077,7 +17087,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-footer__title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1rem;
     line-height: 1.5rem
 }
@@ -17137,7 +17147,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-fitem__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 1rem
@@ -17711,7 +17721,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-fitem__title--variant-1 {
     color: var(--color-primary-white100);
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.25rem;
     line-height: 1.75rem
 }
@@ -17859,7 +17869,7 @@ body.business .c-card-socmed__circle-2 {
     border: 1px solid #00880d;
     border-radius: 28px;
     padding: 12px 1rem;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1rem;
     line-height: 1rem;
     text-align: center
@@ -18117,7 +18127,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-header.navbar-id a {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.125rem
 }
 
@@ -18136,7 +18146,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-header.navbar-id .c-header__link-item__lang {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1.125rem
 }
 
@@ -18338,7 +18348,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-join-link__item-title {
     font-size: 18px;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     color: #00aa13
 }
 
@@ -18562,7 +18572,7 @@ body.business .c-card-socmed__circle-2 {
     top: 1rem;
     font-size: 14px;
     color: #fff;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     opacity: .75;
     cursor: pointer
 }
@@ -18945,7 +18955,7 @@ body.business .c-card-socmed__circle-2 {
     padding: .5rem 0;
     margin: 1rem 0;
     border-bottom: 1px solid #e8e8e8;
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 24px;
     line-height: 32px
 }
@@ -19042,7 +19052,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-treemenu-item.active .js-toggler {
-    font-stretch: MaisonNeueExtended-Bold, sans-serif;
+    font-stretch: var(--font-dasar);
     font-weight: 700
 }
 
@@ -19106,7 +19116,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-wizard-nav__item.active,
 .c-wizard-nav__item.done {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-weight: 800;
     font-size: 1.5rem
 }
@@ -20169,7 +20179,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .text-strong {
-    font-family: MaisonNeueExtended-Bold, sans-serif
+    font-family: var(--font-dasar)
 }
 
 .u-release {
@@ -20770,7 +20780,7 @@ body.business .c-card-socmed__circle-2 {
     min-width: 4rem;
     background-color: transparent;
     font-size: 1rem;
-    color: #1293E4;
+    color: var(--warna-kedua);
     border: none;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
@@ -20793,7 +20803,7 @@ body.business .c-card-socmed__circle-2 {
     -webkit-transition: .3s;
     transition: .3s;
     padding: .5rem;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 .c-search__button span {
@@ -20809,7 +20819,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-search__button:active {
-    background-color: #00880d
+    background-color: var(--warna-ketiga)
 }
 
 @media (min-width:768px) {
@@ -20818,7 +20828,7 @@ body.business .c-card-socmed__circle-2 {
         top: auto;
         right: auto;
         color: #fff;
-        background-color: #1293E4;
+        background-color: var(--warna-kedua);
         min-height: 3rem;
         min-width: 7.5rem;
         border-radius: 24px;
@@ -21019,7 +21029,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-search-result__info {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1rem;
     line-height: 24px;
     color: #727272
@@ -21033,7 +21043,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-search-result__title {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
@@ -21068,7 +21078,7 @@ body.business .c-card-socmed__circle-2 {
 
 @media (min-width:768px) {
     .c-search-result__title--not-found {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 2.25rem;
         line-height: 54px
     }
@@ -21093,7 +21103,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-top-faq__question {
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -21144,7 +21154,7 @@ body.business .c-card-socmed__circle-2 {
     -webkit-box-pack: left;
     -ms-flex-pack: left;
     justify-content: left;
-    font-family: MaisonNeue-Demi, sans-serif;
+    font-family: var(--font-dasar);
     min-height: 64px;
     border-radius: 24px;
     -webkit-box-shadow: 0 0 10px 0 rgba(16, 24, 32, .1);
@@ -21253,7 +21263,7 @@ body.business .c-card-socmed__circle-2 {
     }
 
     .o-show-more__text {
-        font-family: MaisonNeue-Demi, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 18px;
         line-height: 1.33;
         color: #00880d;
@@ -21353,7 +21363,7 @@ body.business .c-card-socmed__circle-2 {
 }
 
 .c-faq-detail__title {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     font-size: 26px;
     line-height: 39px;
     margin-bottom: 12px
@@ -21361,7 +21371,7 @@ body.business .c-card-socmed__circle-2 {
 
 @media (min-width:768px) {
     .c-faq-detail__title {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 36px;
         line-height: 54px
     }
@@ -21430,7 +21440,7 @@ body.business .c-card-socmed__circle-2 {
 
 .c-faq-detail .blog-body h1,
 .c-faq-detail .c-faq-detail__body h1 {
-    font-family: MaisonNeueExtended-Bold, sans-serif;
+    font-family: var(--font-dasar);
     color: #101820;
     font-size: 26px;
     line-height: 39px;
@@ -21441,7 +21451,7 @@ body.business .c-card-socmed__circle-2 {
 
     .c-faq-detail .blog-body h1,
     .c-faq-detail .c-faq-detail__body h1 {
-        font-family: MaisonNeueExtended-ExtraBold, sans-serif;
+        font-family: var(--font-dasar);
         font-size: 36px;
         font-weight: 800;
         line-height: 54px;
@@ -21917,7 +21927,7 @@ body.business .c-card-socmed__circle-2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 32px;
-    font-family: MaisonNeue-Demi, sans-serif
+    font-family: var(--font-dasar)
 }
 
 .c-faq-detail__helpful a {

@@ -49,6 +49,33 @@
     --size-font-subtitle: 50px;
   }
 
+  /* Button Arrow To Top Webstie */
+  .ui-to-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 100;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 36px;
+	border-radius: 50%;
+	color: #ffffff;
+	background: var(--warna-dasar);
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	transform: translate3d(0, 100px, 0);
+}
+
+.ui-to-top:hover {
+	color: #ffffff;
+	background: var(--warna-kedua);
+	text-decoration: none;
+}
+/* End Button ARROW  */
+
   /* Pre Loader */
   .cssload-speeding-wheel {
 	width: 64px;
@@ -74,6 +101,14 @@
 	    color: #ffffff;
 	    background-color: var(--warna-kedua);
     	border-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka:hover, .button-secondary.button-nuka:active, .button-secondary.button-nuka.active {
+	background-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka .button-overlay {
+        background-color: var(--warna-kedua);
       }
       /* End Button Belanja Sekarang & Button Selengkapnya di Kategori Layanan */
 
@@ -182,6 +217,38 @@
     background-size: 67%;
     position: relative;
 }
+
+@media screen and (max-width: 576px) {
+    #cta {
+        padding: 50px 0;
+        background: var(--warna-kedua) url(../assets/img/home-img.png) -110% no-repeat;
+        background-size: 20%;
+        position: relative;
+    }
+
+    #cta .box-cta {
+        width: auto;
+        margin-left: auto;
+    }
+
+    #cta .cta-text {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #FFF;
+        margin-bottom: 30px;
+    }
+
+    #cta a.btn-cta {
+        background: #FFF;
+        border-radius: 40px;
+        color: #222;
+        margin-left: 100px;
+        font-weight: 600;
+        padding: 8px 20px;
+    }
+  }
 /* END CTA Banner Download */
 
 /* Footer */

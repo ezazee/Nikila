@@ -16,6 +16,203 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <link rel="stylesheet" href="../mitra_merchant/merchant.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+
+    <style>
+          /* Root Variable Color */
+      :root{
+    --warna-dasar: #1293E4;
+    --warna-kedua: #07476f;
+    --warna-ketiga: #09507c;
+    --warna-putih1: #fff;
+    --warna-putih2: #fafafa;
+    --font-dasar: 'Poppins', sans-serif;
+    --size-font-subtitle: 50px;
+  }
+
+    /* Button Arrow To Top Webstie */
+  .ui-to-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 100;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 36px;
+	border-radius: 50%;
+	color: #ffffff;
+	background: var(--warna-dasar);
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	transform: translate3d(0, 100px, 0);
+}
+
+.ui-to-top:hover {
+	color: #ffffff;
+	background: var(--warna-kedua);
+	text-decoration: none;
+}
+/* End Button ARROW  */
+
+
+  /* Pre Loader */
+  .cssload-speeding-wheel {
+	width: 64px;
+	height: 64px;
+	margin: 0 auto;
+	border: 3px solid var(--warna-dasar);
+	border-radius: 50%;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	animation: cssload-spin .88s infinite linear;
+  }
+/* End Pre Loader */
+
+  /* Button Belanja Sekarang & Button Daftar Sekarang */
+      .button-secondary, .button-secondary:focus {
+	    color: #ffffff;
+	    background-color: var(--warna-dasar);
+	    border-color: var(--warna-dasar);
+      }
+
+      .button-secondary:hover, .button-secondary:active, .button-secondary.active {
+	    color: #ffffff;
+	    background-color: var(--warna-kedua);
+    	border-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka:hover, .button-secondary.button-nuka:active, .button-secondary.button-nuka.active {
+        background-color: var(--warna-kedua);
+      }
+
+      .button-secondary.button-nuka .button-overlay {
+        background-color: var(--warna-kedua);
+      }
+      /* End Button Belanja Sekarang & Button Daftar Sekarang */
+
+
+      /* Hover Text Navbar */
+      .rd-navbar-static.context-dark .rd-nav-link:hover, .rd-navbar-static.bg-gray-700 .rd-nav-link:hover, .rd-navbar-static.bg-gray-800 .rd-nav-link:hover, .rd-navbar-static.bg-primary-app .rd-nav-link:hover, .rd-navbar-static.bg-primary .rd-nav-link:hover, .rd-navbar-static.bg-primary-1 .rd-nav-link:hover, .rd-navbar-static.bg-primary-2 .rd-nav-link:hover, .rd-navbar-static.bg-wave-dark-wrap .rd-nav-link:hover, .rd-navbar-static.bg-gradient-primary .rd-nav-link:hover, .rd-navbar-static.bg-gradient-primary-1 .rd-nav-link:hover, .rd-navbar-static.rd-navbar-corporate .rd-nav-link:hover {
+	    color: var(--warna-dasar);
+      }
+      /* End Hover Text Navbar */
+
+          /* Card Kenapa Gabung */
+    
+.card:hover .circle {
+    border-color: var(--warna-kedua);
+    background: var(--warna-kedua);
+}
+
+.card:hover .circle:after {
+    background: var(--warna-dasar);
+}
+
+.card:hover p {
+    color: var(--warna-putih1);
+}
+
+
+.circle {
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid var(--warna-ketiga);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+}
+
+.circle:after {
+    content: "";
+    width: 118px;
+    height: 118px;
+    display: block;
+    position: absolute;
+    background: var(--warna-ketiga);
+    border-radius: 50%;
+    top: 7px;
+    left: 7px;
+    transition: opacity 0.3s ease-out;
+}
+
+.overlay {
+    width: 118px;
+    position: absolute;
+    height: 118px;
+    border-radius: 50%;
+    background: var(--warna-dasar);
+    top: 70px;
+    left: 50px;
+    z-index: 0;
+    transition: transform 0.3s ease-out;
+}
+
+/* End Card Kenapa Gabung */
+
+/* Button Aktif Tutor Pesen */
+.aktif{
+    background: var(--warna-kedua);
+    color: #FFF;
+}
+/* End Button */
+
+/* CTA banner */
+#cta {
+    padding: 50px 0;
+    background: var(--warna-kedua) url(../../../assets/img/Ilustrasi/Daftar.png)  no-repeat;
+    background-size: 40%;
+    position: relative;
+}
+
+@media screen and (max-width: 576px) {
+    #cta {
+    padding: 50px 0;
+    background: var(--warna-kedua) url(../../../assets/img/home-img.png) -110% no-repeat;
+    background-size: 20%;
+    position: relative;
+    }
+
+    #cta .box-cta {
+        width: auto;
+        margin-left: auto;
+    }
+
+    #cta .cta-text {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #FFF;
+        margin-bottom: 30px;
+    }
+
+    #cta a.btn-cta {
+        background: #FFF;
+        border-radius: 40px;
+        color: #222;
+        margin-left: 100px;
+        font-weight: 600;
+        padding: 8px 20px;
+    }
+
+}
+/* END CTA Banner */
+
+/* Footer */
+footer {
+    background: var(--warna-kedua);
+    padding: 50px 0 0 0;
+    color: #E9E9E9;
+}
+/* End Footer */
+    </style>
   </head>
   <body>
     <div class="preloader">
@@ -46,7 +243,7 @@
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="../../tentang/tentang.html">Tentang NikiLa POL</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="../../tentang/tentang.html">Tentang Nikila</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="#">Mitra</a>
                         <ul class="rd-menu rd-navbar-dropdown">
@@ -204,7 +401,7 @@
         <div class="col-md-6">
           <div>
             <button id="btn-1" class="btn btn-success aktif" type="button">
-              <div class="box-tutor">1. Buka Aplikasi Nikila POL.</div>
+              <div class="box-tutor">1. Buka Aplikasi Nikila.</div>
               <div class="box-tutor">Lalu Pilih Salah Satu Kategori</div>
             </button>
           </div>
@@ -289,7 +486,7 @@
                         <div class="col-md-4">
                             <div class="box-footer1">
                                 <div class="footer-text">
-                                    NikiLa Pasar Online Lamongan atau yang disingkat Nikila POL adalah Super Apps yang menggabungkan <em>Marketplace</em> dan <em>Delivery Order</em>, yang mempunyai tujuan menjadi wadah jualan produk kearifan lokal Kabupaten Lamongan serta untuk meningkatkan PAD (Pendapatan Asli Daerah) Kabupaten.
+                                    Niki Lamongan atau yang disingkat Nikila adalah Super Apps yang menggabungkan <em>Marketplace</em> dan <em>Delivery Order</em>, yang mempunyai tujuan menjadi wadah jualan produk kearifan lokal Kabupaten Lamongan serta untuk meningkatkan PAD (Pendapatan Asli Daerah) Kabupaten.
                                 </div>
                                 <div class="box-sosmed">
                                     <a href="#" title="Facebook NikiLa" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -316,7 +513,7 @@
                                     <li><a href="../../../html/mitra/mitra_driver/driver.html" title="">Mitra Driver</a></li>
                                     <li><a href="../../../html/mitra/mitra_merchant/merchant.html" title="">Mitra Merchant</a></li>
                                     <li><a href="../../../html/layanan/layanan.html" title="">Layanan</a></li>
-                                    <li><a href="../../../html/tentang/tentang.html" title="">Tentang NikiLa POL</a></li>
+                                    <li><a href="../../../html/tentang/tentang.html" title="">Tentang Nikila</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -331,7 +528,7 @@
                         </div>
                     </div>
                     <div class="box-copy">
-                        &copy; 2022. <b>NikiLa POL</b>. All Rights Reserved
+                        &copy; 2022. <b>Nikila</b>. All Rights Reserved
                     </div>
                   <div class="img-nuku">
                     <img src="../../../assets/img/Powered by NuKu.png" width="150px" alt="">
