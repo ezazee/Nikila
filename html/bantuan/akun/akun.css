@@ -7,7 +7,29 @@
     --font-dasar: var(--font-dasar), sans-serif;
     --size-font-subtitle: 50px;
   }
+  
+  .badge {
+      font-size: 14.4px;
+      font-weight: 500;
+      color: #fff;
+      letter-spacing: .25px;
+      line-height: 34px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      height: 34px;
+      padding: 0 16px;
+      max-width: 160px;
+      display: inline-block;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -o-border-radius: 2px;
+      border-radius: 2px
+  }
 
+  body {
+    background-color: #F5F8FB!important;
+}
 
 .slick-slider {
     -webkit-box-sizing: border-box;
