@@ -26045,12 +26045,12 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .owl-carousel .owl-dot:hover span {
-	background: #01C9F5;
+	background: var(--warna-dasar);
 }
 
 .owl-carousel .owl-dot.active span {
 	width: inherit;
-	background: #01C9F5;
+	background: var(--warna-dasar);
 }
 
 .owl-carousel * + .owl-dots {

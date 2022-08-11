@@ -190,3 +190,28 @@ $("#btn-9").on("click", function () {
   $("#img-7").hide("slide");
   $("#img-8").hide("slide");
 });
+
+function mediaQuery(x) {
+  if (x.matches) {
+    // If media query matches
+    $("#img-1").show("slide");
+    $("#img-2").show("slide");
+    $("#img-3").show("slide");
+    $("#img-4").show("slide");
+    $("#img-5").show("slide");
+    $("#img-6").show("slide");
+    $("#img-7").show("slide");
+    $("#img-8").show("slide");
+    $("#img-9").show("slide");
+    const ele = document.querySelector("#carousel");
+    ele.classList.add("owl-carousel");
+    ele.classList.add("owl-1");
+  } else {
+  }
+}
+
+var x = window.matchMedia("(max-width: 575.98px)");
+const ininya = document.querySelector("#carousel");
+
+mediaQuery(x); // Call listener function at run time
+x.addListener(mediaQuery); // Att

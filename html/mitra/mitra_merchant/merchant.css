@@ -381,3 +381,23 @@
     background: var(--warna-kedua);
     color: #FFF;
 }
+
+#mobile {
+    display: none;
+}
+
+.text-1 {
+    font-family: var(--font-dasar);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 575.98px) {
+    .text-tutor {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+    }
+}
