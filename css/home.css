@@ -1122,7 +1122,6 @@ nav.page-bottom .page-link {
     grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
     row-gap: 2vh;
     position: relative;
-    margin-bottom: 150px;
 }
 
 .progress-bar {
@@ -1380,4 +1379,10 @@ nav.page-bottom .page-link {
 
 .content {
     padding: 2rem 0;
+}
+
+.text-1 {
+    font-family: var(--font-dasar);
+    font-size: 18px;
+    font-weight: 400;
 }
