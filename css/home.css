@@ -1116,13 +1116,12 @@ nav.page-bottom .page-link {
 }
 
 .carousel-blog {
-    min-height: 100vh;
+    min-height: 80vh;
     display: grid;
     grid-template-rows: 1fr 3fr 1.5fr;
     grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
     row-gap: 2vh;
     position: relative;
-    margin-bottom: 150px;
 }
 
 .progress-bar {
@@ -1379,5 +1378,13 @@ nav.page-bottom .page-link {
 }
 
 .content {
-    padding: 2rem 0;
+    width: 90%;
+    padding: 5rem 0;
+}
+
+@media (max-width: 575.98px) {
+    .mobile-showcase{
+        display: flex;
+        justify-content: center !important;
+    }
 }
