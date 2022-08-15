@@ -805,8 +805,8 @@ p {
 
 #cta {
     padding: 50px 0;
-    background: var(--warna-ketiga) url(../assets/img/Smatphone/smartphone-full.png) -200px center no-repeat;
-    background-size: 67%;
+    background: var(--warna-ketiga) url(../assets/img/banner/cta.png)  center no-repeat;
+    background-size: 100%;
     position: relative;
 }
 
